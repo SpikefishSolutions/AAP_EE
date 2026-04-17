@@ -1,7 +1,0 @@
-.env
-.DS_Store
-
-# Mounted runtime directories — state, not source
-workspace/
-config/
-data/
