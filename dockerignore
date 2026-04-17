@@ -1,7 +1,0 @@
-.env
-.git/
-.gitignore
-.DS_Store
-workspace/
-config/
-data/
