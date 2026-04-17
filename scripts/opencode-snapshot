@@ -1,0 +1,10 @@
+#!/bin/bash
+# ============================================================
+# opencode-snapshot — On-demand package snapshot
+#
+# Thin wrapper that calls package-snapshot.sh. Handy for:
+#   docker compose exec opencode opencode-snapshot
+# to capture user-installed packages without waiting for the
+# periodic interval.
+# ============================================================
+exec /opt/opencode/scripts/package-snapshot.sh "$@"
